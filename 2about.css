@@ -1,0 +1,42 @@
+.about {
+  width: 100%;
+  height: 100vh;
+}
+.logo-link {
+  text-decoration: none;
+  margin: 0 0.3rem;
+  color: white;
+  transition: 1s;
+}
+.logo-link:hover {
+  text-decoration: underline;
+}
+.links-container {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.about-section {
+  display: flex;
+  margin: 0 1rem 0 0;
+}
+.about-section-image-container {
+  width: 700px;
+  height: 500px;
+}
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-section-text-container {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+	.about-section {
+       display: flex;
+	   flex-direction: column;
+       margin: 0 1rem;
+    }
+}
